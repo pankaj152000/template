@@ -1,0 +1,34 @@
+.header {
+    height: 60px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-size: larger;
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    margin-left: 50px;
+    align-content: center;
+    align-self: center;
+  
+    .options {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-left: 20px;
+  
+      .option {
+        padding: 15px 20px;
+        cursor: pointer;
+      }
+
+      .but{
+          margin-left: 50px;
+      }      
+    }
+  }
+  
